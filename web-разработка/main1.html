@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Web-разработка</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
+   </head>
+
+<body>
+    <div class="navbar">
+        <div class="wrapernav">
+            <img src="logo.jpg" alt="logo" class="logo ">
+            <button class="buttonnav">
+                Главная
+            </button>
+            <button class="buttonnav">
+                О нас
+            </button>
+            <button class="buttonnav">
+                Контакты
+            </button>
+        </div>
+    </div>
+    <div class="center">
+        <div class="block">
+            <p class="text">Авторизация</p>
+            <div class="text-field text-field_floating-2">
+                <input class="text-field__input" type="email" id="email" name="email" placeholder="E-mail">
+                <label class="text-field__label" for="email">E-mail</label>
+              </div>
+              <div class="text-field text-field_floating-2">
+                <input class="text-field__input" type="password" id="email" name="password" placeholder="Password">
+                <label class="text-field__label" for="password">Пароль</label>
+              </div>
+            <a class="open_modal" href="#open">
+                <button class="btn">
+                Вход
+            </button>
+            <div id="modal" class="modal bounceIn">
+                <div id="close_modal">+</div>
+                <div class="modal_txt">Успешно</div>
+            </div>
+            
+            </a>
+            <p style="margin-top: 30px;">или</p>
+            <a href="mail.html">
+            <button class="btn">
+               Регистрация
+            </button>
+            </a>
+        </div>
+       
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+
+</html>

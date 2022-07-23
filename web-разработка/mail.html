@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Web-разработка</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
+   </head>
+
+<body>
+    <div class="navbar">
+        <div class="wrapernav">
+            <img src="logo.jpg" alt="logo" class="logo ">
+            <button class="buttonnav">
+                Главная
+            </button>
+            <button class="buttonnav">
+                О нас
+            </button>
+            <button class="buttonnav">
+                Контакты
+            </button>
+        </div>
+    </div>
+    <div class="center">
+        <div class="block">
+            <p class="text">Регистрация</p>
+            <div class="text">
+                <div class="text-field text-field_floating-2">
+                    <input class="text-field__input" type="text" id="email" name="Name" placeholder="Name">
+                    <label class="text-field__label" for="email">Имя</label>
+                  </div>
+                  <div class="text-field text-field_floating-2">
+                    <input class="text-field__input" type="email" id="email" name="email" placeholder="E-mail">
+                    <label class="text-field__label" for="email">E-mail</label>
+                  </div>
+                  <div class="text-field text-field_floating-2">
+                    <input class="text-field__input" type="text" id="email" name="text" placeholder="Password">
+                    <label class="text-field__label" for="text">Пароль</label>
+                  </div>
+                  <div class="text-field text-field_floating-2">
+                    <input class="text-field__input" type="text" id="email" name="text" placeholder="Password">
+                    <label class="text-field__label" for="text">Повторите пароль</label>
+                  </div>
+            </div>
+            <a class="open_modal" href="#open">
+                <button class="btn">
+                Регистрация
+            </button>
+            <div id="modal" class="modal bounceIn">
+                <div id="close_modal">+</div>
+                <div class="modal_txt">Успешно</div>
+            </div>
+            
+            </a>
+            <p style="margin-top: 30px;">или</p>
+            <a href="main1.html">
+            <button class="btn">
+                Авторизация
+            </button>
+        </a>
+        </div>
+        
+       
+    </div>
+   
+    
+    <script src="scripts.js"></script>
+    
+</body>
+
+</html>
